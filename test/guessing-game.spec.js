@@ -35,6 +35,7 @@ describe('#guess', () => {
         expect(result).to.equal(number);
     });
 
+    
     it('should guess number 279 with max value 3445', () => {
         const number = 279;
         const game = new GuessingGame();
